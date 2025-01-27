@@ -1,11 +1,16 @@
 
 import Butt from "./Buttons/Butt";
+import Student from "./Student";
 
 function App() {
   return(
   
     
-     <Butt/>
+     
+    <> 
+    <Butt/>
+    <Student name="spongebob" age="20" isStudent />
+    </>
  
   );
 }
