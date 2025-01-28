@@ -1,17 +1,9 @@
-
-import Butt from "./Buttons/Butt";
-import Student from "./Student";
+import Geet from "./Geet.jsx"
+import Fruits from "./Fruits.jsx";
 
 function App() {
-  return(
-  
-    
-     
-    <> 
-    <Butt/>
-    <Student name="spongebob" age="20" isStudent />
-    </>
- 
+  return (
+    <Fruits/>
   );
 }
-export default App
+export default App;
